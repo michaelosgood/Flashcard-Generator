@@ -1,9 +1,6 @@
 var inquirer = require('inquirer');
 
-
-//should accept two arguements (front and back)
-
-// Object Constructor Function
+// Object Constructor Function for our BasicCard
 function BasicCard(front, back) {
     this.front = front;
     this.back = back;
