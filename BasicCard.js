@@ -1,3 +1,4 @@
+// Michael Osgood / BasicCard.js
 var inquirer = require('inquirer');
 
 // Object Constructor Function for our BasicCard
@@ -42,18 +43,4 @@ var createBasicCard = function() {
 }
 createBasicCard();
 
-
-//EXAMPLE of BasicCard (uncomment to use)
-//var firstPresident = new BasicCard("Who was the first president of the United States?", "George Washington");
-
-//"Who was the first president of the United States?" (uncomment to use)
-//console.log(firstPresident.front);
-
-// Console log the front and back of the card (uncomment to use)
-//console.log(firstPresident)
-
-// Console log the front of the card (uncomment to use)
-//console.log(firstPresident.front);
-
-// Allows BasicCard module to be exported
 module.exports = BasicCard;

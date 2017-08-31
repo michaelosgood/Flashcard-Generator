@@ -1,3 +1,4 @@
+// Michael Osgood / ClozeCard.js
 var inquirer = require('inquirer');
 
 function ClozeCard(fullText, cloze) {
@@ -43,9 +44,4 @@ var createClozeCard = function() {
 
 createClozeCard();
 
-// EXAMPLE of ClozeCard (uncomment to use)
-//var CardExample = new clozeCard("2.99e8 meters/second is the speed of light", "speed of light", "2.99e8 meters/second is the ...");
-//console.log(CardExample);
-
-// Allows ClozeCard module to be exported
 module.exports = ClozeCard;
